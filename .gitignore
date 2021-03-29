@@ -89,41 +89,49 @@ ipython_config.py
 #   However, in case of collaboration, if having platform-specific dependencies or dependencies
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
-#Pipfile.lock
+### Python template
+__pycache__/
+__pycache__
 
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
 
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
+.DS_store
 
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
+venv
 venv/
-ENV/
-env.bak/
-venv.bak/
 
-# Spyder project settings
-.spyderproject
-.spyproject
+# Idea files
+.idea
 
-# Rope project settings
-.ropeproject
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# mkdocs documentation
-/site
+# Distribution / packaging
+.Python
+env/
+mydearmath.egg-info/
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.eggs
 
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Pyre type checker
-.pyre/
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
